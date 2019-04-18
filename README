@@ -37,7 +37,7 @@ Then add the line below to config/initializers/mime_types.rb
 For Skiping setting the Format to :mobile
 Add this line to your Application Controller
 
-  skip_before_filter :set_mobile_format
+  skip_before_action :set_mobile_format
 
 Example
 =======
