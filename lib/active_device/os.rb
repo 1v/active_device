@@ -1,4 +1,4 @@
-class Os
+class ActiveDevice::Os
   ##
   # User agent string.
 

@@ -1,5 +1,5 @@
-class Bot
-  
+class ActiveDevice::Bot
+
   ##
   # User agent string.
 

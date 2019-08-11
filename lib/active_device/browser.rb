@@ -1,4 +1,4 @@
-class Browser
+class ActiveDevice::Browser
   ##
   # User agent string.
 

@@ -1,4 +1,4 @@
-class Model
+class ActiveDevice::Model
   ##
   # User agent user_agent.
 
@@ -78,7 +78,7 @@ class Model
         model = :'Palm Pre'
       elsif user_agent[/Pixi[\w\.\_\-]*/i]
         model = :'Palm Pixi'
-      else 
+      else
         model = user_agent[/[\w\.\_\-]*/i]
       end
     elsif user_agent =~ /PalmOS[\w\.\_\-]*/i

@@ -1,4 +1,4 @@
-class UserAgent
+class ActiveDevice::UserAgent
   ##
   # User agent user_agent.
 
@@ -10,7 +10,7 @@ class UserAgent
   def initialize user_agent
     @user_agent = user_agent.strip
   end
-  
+
   ##
   # User agent user_agent.
 
@@ -40,5 +40,5 @@ class UserAgent
   def self.map name, options = {}
     @agents << [name, options]
   end
-  
+
 end

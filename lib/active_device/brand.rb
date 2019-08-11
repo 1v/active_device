@@ -1,5 +1,5 @@
-class Brand
-  
+class ActiveDevice::Brand
+
   ##
   # User agent string.
 

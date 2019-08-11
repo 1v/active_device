@@ -24,76 +24,76 @@
 module ActiveDevice
 
   module Helper
-  
+
     ##
     # User agent name symbol.
 
     def agent_name
-      Browser.name request.user_agent
+      ActiveDevice::Browser.name request.user_agent
     end
 
     ##
     # User agent version.
 
     def agent_version
-      Browser.version request.user_agent
+      ActiveDevice::Browser.version request.user_agent
     end
 
     ##
     # User agent engine symbol.
 
     def agent_engine
-      Engine.engine request.user_agent
+      ActiveDevice::Engine.engine request.user_agent
     end
 
     ##
     # User agent engine version user_agent.
 
     def agent_engine_version
-      Engine.engine_version request.user_agent
+      ActiveDevice::Engine.engine_version request.user_agent
     end
 
     ##
     # User agent os symbol.
 
     def agent_os
-      Os.os request.user_agent
+      ActiveDevice::Os.os request.user_agent
     end
 
     ##
     # User agent engine version user_agent.
 
     def agent_os_version
-      Os.os_version request.user_agent
+      ActiveDevice::Os.os_version request.user_agent
     end
 
     ##
     # User agent engine version user_agent.
 
     def agent_os_series
-      Os.os_series request.user_agent
+      ActiveDevice::Os.os_series request.user_agent
     end
 
     ##
     # User agent model symbol.
 
     def device_model
-      Model.brand_model request.user_agent
+      ActiveDevice::Model.brand_model request.user_agent
     end
 
     ##
     # User agent model Reselution symbol.
 
     def device_model_reselution
-      Model.model_reselution request.user_agent
+      ActiveDevice::Model.model_reselution request.user_agent
     end
 
     ##
     # User agent brand symbol.
 
     def device_brand
-      Brand.mobile_brand request.user_agent
+      ActiveDevice::Brand.mobile_brand request.user_agent
     end
-    
+
   end
 end

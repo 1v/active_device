@@ -1,5 +1,5 @@
-class Engine
-  
+class ActiveDevice::Engine
+
   ##
   # User agent string.
 
@@ -62,7 +62,7 @@ class Engine
     else $1 if user_agent =~ /#{engine user_agent}[\/ ]([\d\w\.\-]+)/i
     end
   end
-  
+
   ##
   # Is _string_. Device
 
